@@ -1,0 +1,21 @@
+{
+  "name": "subiendo-proyecto-a-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Estanislao19/random-str-msg420.git"
+  },
+  "homepage": "https://github.com/Estanislao19/random-str-msg420#readme",
+  "bin": { 
+   "random-str-msg420":"./random-str-msg420/bin/global.js" 
+  },
+  "preferGlobal": true,
+  "keywords": [],
+  "author": "Estanislao Valdez <estanivaldez@hotmail.com>",
+  "license": "MIT"
+}
